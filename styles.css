@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+h1 {
+    text-align: center;
+    color: #d3d3d3;
+    margin-bottom: 30px;
+}
+
+table.table1 {
+    border-collapse: separate;
+    width: auto;
+}
+
+table.table1 tr {
+    background-color: rgb(89, 126, 120);
+}
+
+table.table1 th {
+    text-align: center;
+    padding: 10px;
+}
+
+table.table2 th {
+    background-color: #549dc7;
+}
+
+table.table2 tr {
+    background-color: #7eaeca;
+}
+
+select {
+    background-color: #7eaeca;
+}
+
+input {
+    align-content: center;
+    background-color: #7eaeca;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    color: #1f1f1f;
+    width: auto;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cc1f1f;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4700ee;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
